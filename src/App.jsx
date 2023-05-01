@@ -7,8 +7,8 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route exact path="patientDetails" element={<PatientDetails />} />
-        <Route exact path="launch" element={<SMARTLauncher />} />
+        <Route path="patientDetails" element={<PatientDetails />} />
+        <Route path="launch" element={<SMARTLauncher />} />
       </Routes>
     </HashRouter>
   );
